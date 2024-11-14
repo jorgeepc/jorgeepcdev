@@ -9,8 +9,8 @@ export default function Home() {
           <p className="mb-2">Software Engineer</p>
         </div>
 
-        <h2 className="text-xl font-bold">Latest blog post</h2>
-        <ul>
+        <h2 className="text-xl font-semibold">Latest blog post</h2>
+        <ul role="list">
           <li className="flex items-center gap-2">
             <a
               className="hover:underline hover:underline-offset-4"
@@ -19,6 +19,41 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               Synthetic Monitoring with OpenTelemetry and Playwright
+            </a>
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold">Latest webinars</h2>
+        <ul role="list">
+          <li className="flex items-center gap-2">
+            <a
+              className="hover:underline hover:underline-offset-4"
+              href="https://www.youtube.com/watch?v=EdZ4mahvn48"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Test Observability with Playwright Engine and GraphQL Test
+              Triggers
+            </a>
+          </li>
+          <li className="flex items-center gap-2">
+            <a
+              className="hover:underline hover:underline-offset-4"
+              href="https://www.youtube.com/watch?v=r_vnyImwD0I"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Test Observability for Teams
+            </a>
+          </li>
+          <li className="flex items-center gap-2">
+            <a
+              className="hover:underline hover:underline-offset-4"
+              href="https://www.youtube.com/watch?v=nAp3zYgykok"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Trace-based testing in Kubernetes with Testkube and Tracetest
             </a>
           </li>
         </ul>
